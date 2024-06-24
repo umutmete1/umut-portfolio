@@ -44,7 +44,7 @@ const Navbar = (props) => {
 
   return (
     <>
-      <Box bg={useColorModeValue("gray.100", "gray.900")} px={4}>
+      <Box px={4}>
         <Flex h={16} alignItems={"center"} justifyContent={"space-between"}>
           <IconButton
             size={"md"}
@@ -60,7 +60,7 @@ const Navbar = (props) => {
               display={{ base: "none", md: "flex" }}
             >
               <NavLink href={"/"} path={path}>
-                Home
+                Umut Mete
               </NavLink>
               <NavLink href={"/projects"} path={path}>
                 Projects
