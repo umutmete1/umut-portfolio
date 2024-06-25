@@ -45,7 +45,7 @@ const Navbar = (props) => {
   return (
     <>
       <Box px={4}>
-        <Flex h={16} alignItems={"center"} justifyContent={"space-between"}>
+        <Flex h={16} alignItems={"center"} justifyContent={"center"}>
           <IconButton
             size={"md"}
             icon={isOpen ? <CloseIcon /> : <HamburgerIcon />}
@@ -60,7 +60,7 @@ const Navbar = (props) => {
               display={{ base: "none", md: "flex" }}
             >
               <NavLink href={"/"} path={path}>
-                Umut Mete
+                Home
               </NavLink>
               <NavLink href={"/projects"} path={path}>
                 Projects

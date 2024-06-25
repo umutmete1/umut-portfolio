@@ -12,6 +12,7 @@ const Page = () => {
           <Heading as="h2" variant="page-title">
             Umut Mete
           </Heading>
+          <p>Software Engineer</p>
         </Box>
       </Box>
     </Container>
